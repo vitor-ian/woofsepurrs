@@ -145,6 +145,10 @@ section{
     color: white!important;
 }
 
+.nav-mobile{
+    display: none;
+}
+
 /*===========================BANNER===========================*/
 
 #banner-princ{
@@ -163,6 +167,10 @@ section{
 }
 
 .txt-site{
+    width: 50%;
+}
+
+.txt-banner{
     width: 50%;
 }
 
@@ -353,6 +361,7 @@ section{
     width: 1200px;
     padding: 20px 100px 120px 100px;
     border-bottom: 1px solid #dee2e6;
+    flex-wrap: wrap;
 }
 
 .test-clientes{
@@ -373,6 +382,7 @@ section{
     margin: 10px;
     background-color: white;
     border-radius: 20px;
+    
     background-image: url(img/aspas.png);
     background-repeat: no-repeat;
     background-size: 30%;
@@ -473,4 +483,192 @@ section{
 
 #btn-footer:hover{
     color: #ee9300;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    h1{
+        font-size: 35px!important;
+    }
+
+    h2{
+        font-size: 30px!important;
+    }
+
+    #img-lc{
+        width: 200px;
+    }
+
+    .img-es{
+        width: 250px!important;
+    }
+
+    #testemunhas{
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        margin: 0px;
+    }
+
+    .test-clientes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bx-txt-clientes{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .bx-cliente{
+        width: 300px;
+        height: 250px;
+        margin: 40px 0px;
+    }
+
+    .txt-clientes{
+        width: 280px;
+    }
+
+    #testes{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        height: 150px;
+    }
+
+    #bl-txt-testes{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    #logo-inf{
+        margin: 20px;
+    }
+
+    .escolha{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #siganos{
+        padding: 20px;
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column!important;
+        margin: 0px;
+    }
+
+    .txt-siganos{
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column!important;
+    }
+
+    .icons-sg{
+        margin: 0px;
+    }
+
+    .icon-siganos{
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    .localize{
+        padding: 20px;
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column!important;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .txt-site{
+        width: 300px!important;
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column!important;
+    }
+
+    .btn-qs{
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column!important;
+    }
+
+    .bnt-02{
+        margin: 10px;
+    }
+
+    .quem-somos{
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column!important;
+    }
+
+    .header-flut{
+        position: relative;
+        justify-content: space-around;
+    }
+
+    .nav-desktop{
+        display: none!important;
+    }
+
+    #banner-princ{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-mobile{
+        display: block;
+    }
+
+    .txt-banner{
+        width: 100%;
+    }
+    
 }
