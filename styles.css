@@ -644,6 +644,7 @@ section{
         align-items: center;
         justify-content: center;
         flex-direction: column!important;
+        width: 100%;
     }
 
     .header-flut{
