@@ -650,6 +650,7 @@ section{
     .header-flut{
         position: relative;
         justify-content: space-around;
+        background-color: #2e1200;
     }
 
     .nav-desktop{
